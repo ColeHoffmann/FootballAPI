@@ -1,0 +1,43 @@
+/* Passing yards, TDs, Passer Rating, INTs */
+.passcolumn{
+    float: left;
+    width: 20%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+/* Rushing yards, TDs, Attempts, Fumbles */
+.runcolumn{
+    float: left;
+    width: 25%;
+    padding: 0px;
+}
+
+/* Receiving yards, TDs, Catches */
+.reccolumn{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+/* Solo tackles, total tackles, sacks, INTs, Pick6s, Passes Defensed, FR, FF, Scoop n Score */
+.defcolumn{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+table{
+    font-family: verdana;
+    font-size: 75%;
+}
+
+th {
+    background-color: #bb0000;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
